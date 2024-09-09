@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro-section {
+    background: url('f1-track.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.intro-section h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    font-size: 1.2em;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.content-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.content-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.content-section p, .content-section ul {
+    font-size: 1.1em;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.footer-section {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-section h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    font-size: 1.1em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
